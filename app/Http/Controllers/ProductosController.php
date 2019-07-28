@@ -18,16 +18,6 @@ class ProductosController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -47,17 +37,6 @@ class ProductosController extends Controller
     public function show(Productos $producto)
     {
         return $producto;
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Productos  $productos
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Productos $productos)
-    {
-        
     }
 
     /**
